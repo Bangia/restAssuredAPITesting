@@ -17,7 +17,7 @@ public class TC_007_GET_Autherization {
 	public void AuthenticateTest() {
 		
 		//BASE URI
-		RestAssured.baseURI="http://need82.in";
+		RestAssured.baseURI="DOMAIN URL";
 		
 		
 		//STEPS 1 : FOR BASIC AUTHENTICATION
@@ -36,8 +36,8 @@ public class TC_007_GET_Autherization {
 		
 		JSONObject requestParams = new JSONObject();
 		
-		requestParams.put("id", "vinod5357.kumar@yandex.com");
-		requestParams.put("password", "Password1@");
+		requestParams.put("id", "USER ID OF YOUR LOGIN");
+		requestParams.put("password", "PASSWORD OF YOUR LOGIN ID");
 		
 		//Header
 		httpRequest.header("Content-type","application/json");
