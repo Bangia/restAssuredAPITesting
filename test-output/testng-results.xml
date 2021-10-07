@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-07T12:32:50Z" name="Default suite" finished-at="2021-10-07T12:32:52Z" duration-ms="2683">
+  <suite started-at="2021-10-07T13:17:13Z" name="Default suite" finished-at="2021-10-07T13:17:18Z" duration-ms="4246">
     <groups>
     </groups>
-    <test started-at="2021-10-07T12:32:50Z" name="Default test" finished-at="2021-10-07T12:32:52Z" duration-ms="2683">
+    <test started-at="2021-10-07T13:17:13Z" name="Default test" finished-at="2021-10-07T13:17:18Z" duration-ms="4246">
       <class name="restAssuredAPITesting.TC_003_GET_REQUEST">
-        <test-method signature="weatherAPIvaidateheaders()[pri:0, instance:restAssuredAPITesting.TC_003_GET_REQUEST@485966cc]" started-at="2021-10-07T12:32:50Z" name="weatherAPIvaidateheaders" finished-at="2021-10-07T12:32:52Z" duration-ms="2635" status="PASS">
+        <test-method signature="weatherAPIvaidateheaders()[pri:0, instance:restAssuredAPITesting.TC_003_GET_REQUEST@485966cc]" started-at="2021-10-07T13:17:13Z" name="weatherAPIvaidateheaders" finished-at="2021-10-07T13:17:18Z" duration-ms="4173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- weatherAPIvaidateheaders -->
