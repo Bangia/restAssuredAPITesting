@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dataDriven.DDT_001_POST_CREATE_USER">
+      <class name="com.employee.framework.TC001_Get_All_Employees">
         <methods>
-          <include name="dataDriveCreateuserTestcase"/>
+          <include name="setup"/>
+          <include name="getAllEmployees"/>
+          <include name="tearDown"/>
+          <include name="checkContentType"/>
+          <include name="checkserverType"/>
         </methods>
-      </class> <!-- dataDriven.DDT_001_POST_CREATE_USER -->
+      </class> <!-- com.employee.framework.TC001_Get_All_Employees -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
