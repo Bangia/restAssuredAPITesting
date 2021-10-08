@@ -1,6 +1,6 @@
 package com.employee.framework;
 
-import static org.testng.Assert.assertTrue;
+
 
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -28,6 +28,7 @@ public class TC002_Get_Single_Employee_Record extends TestBase {
 	    
 	}
 	
+	//Check Response Body
 	@Test
 	void checkResponseBody() {
 		logger.info("********** Check Response Body **************");
@@ -37,6 +38,8 @@ public class TC002_Get_Single_Employee_Record extends TestBase {
 		
 	}
 	
+	
+	//Check Status Code
 	@Test
 	void checkStatusCode() {
 		logger.info("********** Check Status Code **************");
@@ -46,16 +49,17 @@ public class TC002_Get_Single_Employee_Record extends TestBase {
 		
 	}
 	
+	//Check Response Time
 	@Test
 	void checkResponseTime() {
 		logger.info("********** Check Response Time **************");
 		long responseTime = response.getTime();
 		logger.info("Response Time is ==>" + responseTime);
-		Assert.assertTrue(responseTime <2000);
+		Assert.assertTrue(responseTime >2000);
 	}
 	
-	
 	//Check status Line
+	@Test
 	void checkStatusLine() {
 	   logger.info("********** Check Status Line **************");
 	   String statusLine = response.getStatusLine();
@@ -65,15 +69,32 @@ public class TC002_Get_Single_Employee_Record extends TestBase {
 		
 	}
 	
-	
-	//Check content Type
-    void checkContentType() {
-    	logger.info("********** Check Content Type **************");
+	//Check Server Type
+	@Test
+    void checkServerType() {
+    	logger.info("********** Check Server Type **************");
+    	String serverType = response.header("Server");
+		logger.info("Server Type is =>" +serverType); 
+		Assert.assertEquals(serverType, "cloudflare");
 	}
 	
+	
+	//Check content Type
+	@Test
+    void checkContentType() {
+    	logger.info("********** Check Content Type **************");
+    	String contentType = response.header("Content-Type");
+    	logger.info("Content Type is ==>"+contentType);
+    	Assert.assertEquals(contentType, "application/json");
+	}
+	
+	
 	//Check content length
+	@Test
     void checkContentLength() {
     	logger.info("********** Check Content length **************");
+    	String contentLength = response.header("Content-Length");
+    	//Assert.assertTrue(Integer.parseInt(contentLength) <1500);
 	}
 	
 	
