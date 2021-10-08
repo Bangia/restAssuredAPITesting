@@ -3,15 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.employee.framework.TC001_Get_All_Employees">
+      <class name="com.employee.framework.TC002_Get_Single_Employee_Record">
         <methods>
           <include name="setup"/>
-          <include name="getAllEmployees"/>
           <include name="tearDown"/>
-          <include name="checkContentType"/>
-          <include name="checkserverType"/>
+          <include name="checkStatusCode"/>
+          <include name="get_Single_Employee_By_empId"/>
         </methods>
-      </class> <!-- com.employee.framework.TC001_Get_All_Employees -->
+      </class> <!-- com.employee.framework.TC002_Get_Single_Employee_Record -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -125,7 +125,9 @@ public class TC001_Get_All_Employees extends TestBase {
 		Assert.assertTrue(Integer.parseInt(contentLength)>100);
 		
 	}
-		
+	
+	
+	/* Ignore this test case because we cannot handle cookies as its changes 	
 	@Test
 	void checkCookies()
 	{
@@ -135,6 +137,7 @@ public class TC001_Get_All_Employees extends TestBase {
 		//Assert.assertEquals(cookie,"1esuvsfslcmiee2bfrsgnijtg0");
 		
 	}
+	*/
 	
 	@AfterClass
 	void tearDown()
