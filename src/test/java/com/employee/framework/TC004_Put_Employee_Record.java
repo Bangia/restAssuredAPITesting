@@ -1,5 +1,9 @@
 package com.employee.framework;
 
-public class TC004_Put_Employee_Record {
+import com.employeeapi.base.TestBase;
+
+public class TC004_Put_Employee_Record extends TestBase {
+	
+	
 
 }
