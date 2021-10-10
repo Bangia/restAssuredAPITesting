@@ -1012,3 +1012,897 @@
 2021-10-09 20:57:25 INFO  EmployeesRestAPI:93 - ********** Check Server Type **************
 2021-10-09 20:57:25 INFO  EmployeesRestAPI:95 - Server Type is =>cloudflare
 2021-10-09 20:57:25 INFO  EmployeesRestAPI:120 - ************* Finished TC003_Post_Employee_Record ***********
+2021-10-10 13:31:46 INFO  EmployeesRestAPI:24 - ************* Started TC004_Update_Employee_Record ***********
+2021-10-10 13:31:59 INFO  EmployeesRestAPI:107 - ********** Check Content Encoding **************
+2021-10-10 13:31:59 INFO  EmployeesRestAPI:109 - Content Encoding is ==>gzip
+2021-10-10 13:31:59 INFO  EmployeesRestAPI:52 - ****** Check Response Body ******
+2021-10-10 13:31:59 INFO  EmployeesRestAPI:54 - Response Body is ==>{
+    "name": "John 6r29",
+    "job": "Ltdma",
+    "updatedAt": "2021-10-10T08:01:54.074Z"
+}
+2021-10-10 13:31:59 INFO  EmployeesRestAPI:88 - ********** Check Server Type **************
+2021-10-10 13:31:59 INFO  EmployeesRestAPI:90 - Server Type is =>cloudflare
+2021-10-10 13:31:59 INFO  EmployeesRestAPI:115 - ************* Finished TC004_Update_Employee_Record ***********
+2021-10-10 13:33:06 INFO  EmployeesRestAPI:24 - ************* Started TC004_Update_Employee_Record ***********
+2021-10-10 13:33:14 INFO  EmployeesRestAPI:72 - ********** check Status Line **************
+2021-10-10 13:33:14 INFO  EmployeesRestAPI:74 - Status Line is ==>HTTP/1.1 200 OK
+2021-10-10 13:33:14 INFO  EmployeesRestAPI:110 - ********** Check Content Encoding **************
+2021-10-10 13:33:14 INFO  EmployeesRestAPI:112 - Content Encoding is ==>gzip
+2021-10-10 13:33:14 INFO  EmployeesRestAPI:81 - ********** Check content Type **************
+2021-10-10 13:33:14 INFO  EmployeesRestAPI:83 - content Type is ==>application/json; charset=utf-8
+2021-10-10 13:33:14 INFO  EmployeesRestAPI:52 - ****** Check Response Body ******
+2021-10-10 13:33:14 INFO  EmployeesRestAPI:54 - Response Body is ==>{
+    "name": "John GS2a",
+    "job": "wIDLM",
+    "updatedAt": "2021-10-10T08:03:09.051Z"
+}
+2021-10-10 13:33:14 INFO  EmployeesRestAPI:91 - ********** Check Server Type **************
+2021-10-10 13:33:14 INFO  EmployeesRestAPI:93 - Server Type is =>cloudflare
+2021-10-10 13:33:14 INFO  EmployeesRestAPI:62 - ********** Check Status Code **************
+2021-10-10 13:33:14 INFO  EmployeesRestAPI:64 - Status Code is ==>200
+2021-10-10 13:33:14 INFO  EmployeesRestAPI:118 - ************* Finished TC004_Update_Employee_Record ***********
+2021-10-10 13:33:45 INFO  EmployeesRestAPI:24 - ************* Started TC004_Update_Employee_Record ***********
+2021-10-10 13:33:52 INFO  EmployeesRestAPI:72 - ********** check Status Line **************
+2021-10-10 13:33:52 INFO  EmployeesRestAPI:74 - Status Line is ==>HTTP/1.1 200 OK
+2021-10-10 13:33:52 INFO  EmployeesRestAPI:110 - ********** Check Content Encoding **************
+2021-10-10 13:33:52 INFO  EmployeesRestAPI:112 - Content Encoding is ==>gzip
+2021-10-10 13:33:52 INFO  EmployeesRestAPI:81 - ********** Check content Type **************
+2021-10-10 13:33:52 INFO  EmployeesRestAPI:83 - content Type is ==>application/json; charset=utf-8
+2021-10-10 13:33:52 INFO  EmployeesRestAPI:52 - ****** Check Response Body ******
+2021-10-10 13:33:52 INFO  EmployeesRestAPI:54 - Response Body is ==>{
+    "name": "John B0kr",
+    "job": "vVjnS",
+    "updatedAt": "2021-10-10T08:03:47.366Z"
+}
+2021-10-10 13:33:52 INFO  EmployeesRestAPI:91 - ********** Check Server Type **************
+2021-10-10 13:33:52 INFO  EmployeesRestAPI:93 - Server Type is =>cloudflare
+2021-10-10 13:33:52 INFO  EmployeesRestAPI:62 - ********** Check Status Code **************
+2021-10-10 13:33:52 INFO  EmployeesRestAPI:64 - Status Code is ==>200
+2021-10-10 13:33:52 INFO  EmployeesRestAPI:118 - ************* Finished TC004_Update_Employee_Record ***********
+2021-10-10 14:00:24 INFO  EmployeesRestAPI:27 - ************* Started TC003_Post_Employee_Record ***********
+2021-10-10 14:00:32 INFO  EmployeesRestAPI:55 - ********** Check Response Body **************
+2021-10-10 14:00:32 INFO  EmployeesRestAPI:57 - Response Body is ==>{
+    "status": "success",
+    "data": {
+        "name": "John EZ92",
+        "salary": "90096",
+        "age": "64",
+        "id": 752
+    },
+    "message": "Successfully! Record has been added."
+}
+2021-10-10 14:00:32 INFO  EmployeesRestAPI:77 - ********** check Status Line **************
+2021-10-10 14:00:32 INFO  EmployeesRestAPI:79 - Status Line is ==>HTTP/1.1 200 OK
+2021-10-10 14:00:32 INFO  EmployeesRestAPI:115 - ********** Check Content Encoding **************
+2021-10-10 14:00:32 INFO  EmployeesRestAPI:117 - Content Encoding is ==>gzip
+2021-10-10 14:00:32 INFO  EmployeesRestAPI:86 - ********** Check content Type **************
+2021-10-10 14:00:32 INFO  EmployeesRestAPI:88 - content Type is ==>application/json
+2021-10-10 14:00:33 INFO  EmployeesRestAPI:96 - ********** Check Server Type **************
+2021-10-10 14:00:33 INFO  EmployeesRestAPI:98 - Server Type is =>cloudflare
+2021-10-10 14:00:33 INFO  EmployeesRestAPI:67 - ********** Check Status Code **************
+2021-10-10 14:00:33 INFO  EmployeesRestAPI:69 - Status Code is ==>200
+2021-10-10 14:00:33 INFO  EmployeesRestAPI:123 - ************* Finished TC003_Post_Employee_Record ***********
+2021-10-10 14:00:49 INFO  EmployeesRestAPI:17 - ************* Started TC005_Delete_Employee_Record ***********
+2021-10-10 14:04:00 INFO  EmployeesRestAPI:17 - ************* Started TC005_Delete_Employee_Record ***********
+2021-10-10 14:04:19 INFO  EmployeesRestAPI:27 - ************* Started TC003_Post_Employee_Record ***********
+2021-10-10 14:04:27 INFO  EmployeesRestAPI:55 - ********** Check Response Body **************
+2021-10-10 14:04:28 INFO  EmployeesRestAPI:57 - Response Body is ==><html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Too Many Requests</title>
+    <link rel="dns-prefetch" href="//fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"/>
+    <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+  </head>
+  <body>
+    <div class="flex-center position-ref full-height">
+      <div class="code">
+                429            </div>
+      <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+    </div>
+  </body>
+</html>
+2021-10-10 14:04:28 INFO  EmployeesRestAPI:77 - ********** check Status Line **************
+2021-10-10 14:04:28 INFO  EmployeesRestAPI:79 - Status Line is ==>HTTP/1.1 429 Too Many Requests
+2021-10-10 14:04:28 INFO  EmployeesRestAPI:115 - ********** Check Content Encoding **************
+2021-10-10 14:04:28 INFO  EmployeesRestAPI:117 - Content Encoding is ==>null
+2021-10-10 14:04:28 INFO  EmployeesRestAPI:86 - ********** Check content Type **************
+2021-10-10 14:04:28 INFO  EmployeesRestAPI:88 - content Type is ==>text/html; charset=UTF-8
+2021-10-10 14:04:28 INFO  EmployeesRestAPI:96 - ********** Check Server Type **************
+2021-10-10 14:04:28 INFO  EmployeesRestAPI:98 - Server Type is =>cloudflare
+2021-10-10 14:04:28 INFO  EmployeesRestAPI:67 - ********** Check Status Code **************
+2021-10-10 14:04:28 INFO  EmployeesRestAPI:69 - Status Code is ==>429
+2021-10-10 14:04:28 INFO  EmployeesRestAPI:123 - ************* Finished TC003_Post_Employee_Record ***********
+2021-10-10 14:04:44 INFO  EmployeesRestAPI:27 - ************* Started TC003_Post_Employee_Record ***********
+2021-10-10 14:04:52 INFO  EmployeesRestAPI:55 - ********** Check Response Body **************
+2021-10-10 14:04:52 INFO  EmployeesRestAPI:57 - Response Body is ==>{
+    "status": "success",
+    "data": {
+        "name": "John qHH1",
+        "salary": "90160",
+        "age": "39",
+        "id": 2386
+    },
+    "message": "Successfully! Record has been added."
+}
+2021-10-10 14:04:52 INFO  EmployeesRestAPI:77 - ********** check Status Line **************
+2021-10-10 14:04:52 INFO  EmployeesRestAPI:79 - Status Line is ==>HTTP/1.1 200 OK
+2021-10-10 14:04:52 INFO  EmployeesRestAPI:115 - ********** Check Content Encoding **************
+2021-10-10 14:04:52 INFO  EmployeesRestAPI:117 - Content Encoding is ==>gzip
+2021-10-10 14:04:52 INFO  EmployeesRestAPI:86 - ********** Check content Type **************
+2021-10-10 14:04:52 INFO  EmployeesRestAPI:88 - content Type is ==>application/json
+2021-10-10 14:04:52 INFO  EmployeesRestAPI:96 - ********** Check Server Type **************
+2021-10-10 14:04:52 INFO  EmployeesRestAPI:98 - Server Type is =>cloudflare
+2021-10-10 14:04:52 INFO  EmployeesRestAPI:67 - ********** Check Status Code **************
+2021-10-10 14:04:52 INFO  EmployeesRestAPI:69 - Status Code is ==>200
+2021-10-10 14:04:52 INFO  EmployeesRestAPI:123 - ************* Finished TC003_Post_Employee_Record ***********
+2021-10-10 14:05:34 INFO  EmployeesRestAPI:17 - ************* Started TC005_Delete_Employee_Record ***********
+2021-10-10 14:06:34 INFO  EmployeesRestAPI:17 - ************* Started TC005_Delete_Employee_Record ***********
+2021-10-10 14:06:39 INFO  EmployeesRestAPI:59 - ********** check Status Line **************
+2021-10-10 14:06:39 INFO  EmployeesRestAPI:61 - Status Line is ==>HTTP/1.1 429 Too Many Requests
+2021-10-10 14:06:39 INFO  EmployeesRestAPI:97 - ********** Check Content Encoding **************
+2021-10-10 14:06:39 INFO  EmployeesRestAPI:99 - Content Encoding is ==>null
+2021-10-10 14:06:39 INFO  EmployeesRestAPI:68 - ********** Check content Type **************
+2021-10-10 14:06:39 INFO  EmployeesRestAPI:70 - content Type is ==>text/html; charset=UTF-8
+2021-10-10 14:06:39 INFO  EmployeesRestAPI:40 - ********** Check Response Body **************
+2021-10-10 14:06:40 INFO  EmployeesRestAPI:42 - Response Body is ==><html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Too Many Requests</title>
+    <link rel="dns-prefetch" href="//fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"/>
+    <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+  </head>
+  <body>
+    <div class="flex-center position-ref full-height">
+      <div class="code">
+                429            </div>
+      <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+    </div>
+  </body>
+</html>
+2021-10-10 14:06:40 INFO  EmployeesRestAPI:78 - ********** Check Server Type **************
+2021-10-10 14:06:40 INFO  EmployeesRestAPI:80 - Server Type is =>cloudflare
+2021-10-10 14:06:40 INFO  EmployeesRestAPI:49 - ********** Check Status Code **************
+2021-10-10 14:06:40 INFO  EmployeesRestAPI:51 - Status Code is ==>429
+2021-10-10 14:06:54 INFO  EmployeesRestAPI:17 - ************* Started TC005_Delete_Employee_Record ***********
+2021-10-10 14:07:00 INFO  EmployeesRestAPI:59 - ********** check Status Line **************
+2021-10-10 14:07:00 INFO  EmployeesRestAPI:61 - Status Line is ==>HTTP/1.1 200 OK
+2021-10-10 14:07:00 INFO  EmployeesRestAPI:97 - ********** Check Content Encoding **************
+2021-10-10 14:07:00 INFO  EmployeesRestAPI:99 - Content Encoding is ==>gzip
+2021-10-10 14:07:00 INFO  EmployeesRestAPI:68 - ********** Check content Type **************
+2021-10-10 14:07:00 INFO  EmployeesRestAPI:70 - content Type is ==>application/json
+2021-10-10 14:07:00 INFO  EmployeesRestAPI:40 - ********** Check Response Body **************
+2021-10-10 14:07:00 INFO  EmployeesRestAPI:42 - Response Body is ==>{
+    "status": "success",
+    "data": "null",
+    "message": "Successfully! Record has been deleted"
+}
+2021-10-10 14:07:00 INFO  EmployeesRestAPI:78 - ********** Check Server Type **************
+2021-10-10 14:07:00 INFO  EmployeesRestAPI:80 - Server Type is =>cloudflare
+2021-10-10 14:07:00 INFO  EmployeesRestAPI:49 - ********** Check Status Code **************
+2021-10-10 14:07:00 INFO  EmployeesRestAPI:51 - Status Code is ==>200
+2021-10-10 14:07:21 INFO  EmployeesRestAPI:17 - ************* Started TC005_Delete_Employee_Record ***********
+2021-10-10 14:08:29 INFO  EmployeesRestAPI:17 - ************* Started TC005_Delete_Employee_Record ***********
+2021-10-10 14:08:34 INFO  EmployeesRestAPI:59 - ********** check Status Line **************
+2021-10-10 14:08:34 INFO  EmployeesRestAPI:61 - Status Line is ==>HTTP/1.1 429 Too Many Requests
+2021-10-10 14:08:34 INFO  EmployeesRestAPI:97 - ********** Check Content Encoding **************
+2021-10-10 14:08:34 INFO  EmployeesRestAPI:99 - Content Encoding is ==>null
+2021-10-10 14:08:34 INFO  EmployeesRestAPI:68 - ********** Check content Type **************
+2021-10-10 14:08:34 INFO  EmployeesRestAPI:70 - content Type is ==>text/html; charset=UTF-8
+2021-10-10 14:08:34 INFO  EmployeesRestAPI:40 - ********** Check Response Body **************
+2021-10-10 14:08:35 INFO  EmployeesRestAPI:42 - Response Body is ==><html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Too Many Requests</title>
+    <link rel="dns-prefetch" href="//fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"/>
+    <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+  </head>
+  <body>
+    <div class="flex-center position-ref full-height">
+      <div class="code">
+                429            </div>
+      <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+    </div>
+  </body>
+</html>
+2021-10-10 14:08:35 INFO  EmployeesRestAPI:78 - ********** Check Server Type **************
+2021-10-10 14:08:35 INFO  EmployeesRestAPI:80 - Server Type is =>cloudflare
+2021-10-10 14:08:35 INFO  EmployeesRestAPI:49 - ********** Check Status Code **************
+2021-10-10 14:08:35 INFO  EmployeesRestAPI:51 - Status Code is ==>429
+2021-10-10 14:08:47 INFO  EmployeesRestAPI:17 - ************* Started TC005_Delete_Employee_Record ***********
+2021-10-10 14:08:54 INFO  EmployeesRestAPI:59 - ********** check Status Line **************
+2021-10-10 14:08:54 INFO  EmployeesRestAPI:61 - Status Line is ==>HTTP/1.1 200 OK
+2021-10-10 14:08:54 INFO  EmployeesRestAPI:97 - ********** Check Content Encoding **************
+2021-10-10 14:08:54 INFO  EmployeesRestAPI:99 - Content Encoding is ==>gzip
+2021-10-10 14:08:54 INFO  EmployeesRestAPI:68 - ********** Check content Type **************
+2021-10-10 14:08:54 INFO  EmployeesRestAPI:70 - content Type is ==>application/json
+2021-10-10 14:08:54 INFO  EmployeesRestAPI:40 - ********** Check Response Body **************
+2021-10-10 14:08:54 INFO  EmployeesRestAPI:42 - Response Body is ==>{
+    "status": "success",
+    "data": "null",
+    "message": "Successfully! Record has been deleted"
+}
+2021-10-10 14:08:54 INFO  EmployeesRestAPI:78 - ********** Check Server Type **************
+2021-10-10 14:08:54 INFO  EmployeesRestAPI:80 - Server Type is =>cloudflare
+2021-10-10 14:08:54 INFO  EmployeesRestAPI:49 - ********** Check Status Code **************
+2021-10-10 14:08:54 INFO  EmployeesRestAPI:51 - Status Code is ==>200
+2021-10-10 14:09:55 INFO  EmployeesRestAPI:17 - ************* Started TC005_Delete_Employee_Record ***********
+2021-10-10 14:10:01 INFO  EmployeesRestAPI:59 - ********** check Status Line **************
+2021-10-10 14:10:01 INFO  EmployeesRestAPI:61 - Status Line is ==>HTTP/1.1 200 OK
+2021-10-10 14:10:01 INFO  EmployeesRestAPI:97 - ********** Check Content Encoding **************
+2021-10-10 14:10:01 INFO  EmployeesRestAPI:99 - Content Encoding is ==>gzip
+2021-10-10 14:10:01 INFO  EmployeesRestAPI:68 - ********** Check content Type **************
+2021-10-10 14:10:01 INFO  EmployeesRestAPI:70 - content Type is ==>application/json
+2021-10-10 14:10:01 INFO  EmployeesRestAPI:40 - ********** Check Response Body **************
+2021-10-10 14:10:01 INFO  EmployeesRestAPI:42 - Response Body is ==>{
+    "status": "success",
+    "data": "null",
+    "message": "Successfully! Record has been deleted"
+}
+2021-10-10 14:10:01 INFO  EmployeesRestAPI:78 - ********** Check Server Type **************
+2021-10-10 14:10:01 INFO  EmployeesRestAPI:80 - Server Type is =>cloudflare
+2021-10-10 14:10:01 INFO  EmployeesRestAPI:49 - ********** Check Status Code **************
+2021-10-10 14:10:01 INFO  EmployeesRestAPI:51 - Status Code is ==>200
+2021-10-10 14:10:30 INFO  EmployeesRestAPI:17 - ************* Started TC005_Delete_Employee_Record ***********
+2021-10-10 14:11:15 INFO  EmployeesRestAPI:17 - ************* Started TC005_Delete_Employee_Record ***********
+2021-10-10 14:11:21 INFO  EmployeesRestAPI:59 - ********** check Status Line **************
+2021-10-10 14:11:21 INFO  EmployeesRestAPI:61 - Status Line is ==>HTTP/1.1 429 Too Many Requests
+2021-10-10 14:11:21 INFO  EmployeesRestAPI:97 - ********** Check Content Encoding **************
+2021-10-10 14:11:21 INFO  EmployeesRestAPI:99 - Content Encoding is ==>null
+2021-10-10 14:11:21 INFO  EmployeesRestAPI:68 - ********** Check content Type **************
+2021-10-10 14:11:21 INFO  EmployeesRestAPI:70 - content Type is ==>text/html; charset=UTF-8
+2021-10-10 14:11:21 INFO  EmployeesRestAPI:40 - ********** Check Response Body **************
+2021-10-10 14:11:22 INFO  EmployeesRestAPI:42 - Response Body is ==><html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Too Many Requests</title>
+    <link rel="dns-prefetch" href="//fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"/>
+    <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+  </head>
+  <body>
+    <div class="flex-center position-ref full-height">
+      <div class="code">
+                429            </div>
+      <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+    </div>
+  </body>
+</html>
+2021-10-10 14:11:22 INFO  EmployeesRestAPI:78 - ********** Check Server Type **************
+2021-10-10 14:11:22 INFO  EmployeesRestAPI:80 - Server Type is =>cloudflare
+2021-10-10 14:11:22 INFO  EmployeesRestAPI:49 - ********** Check Status Code **************
+2021-10-10 14:11:22 INFO  EmployeesRestAPI:51 - Status Code is ==>429
+2021-10-10 14:11:32 INFO  EmployeesRestAPI:17 - ************* Started TC005_Delete_Employee_Record ***********
+2021-10-10 14:11:39 INFO  EmployeesRestAPI:59 - ********** check Status Line **************
+2021-10-10 14:11:39 INFO  EmployeesRestAPI:61 - Status Line is ==>HTTP/1.1 429 Too Many Requests
+2021-10-10 14:11:39 INFO  EmployeesRestAPI:97 - ********** Check Content Encoding **************
+2021-10-10 14:11:39 INFO  EmployeesRestAPI:99 - Content Encoding is ==>null
+2021-10-10 14:11:39 INFO  EmployeesRestAPI:68 - ********** Check content Type **************
+2021-10-10 14:11:39 INFO  EmployeesRestAPI:70 - content Type is ==>text/html; charset=UTF-8
+2021-10-10 14:11:39 INFO  EmployeesRestAPI:40 - ********** Check Response Body **************
+2021-10-10 14:11:40 INFO  EmployeesRestAPI:42 - Response Body is ==><html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Too Many Requests</title>
+    <link rel="dns-prefetch" href="//fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"/>
+    <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+  </head>
+  <body>
+    <div class="flex-center position-ref full-height">
+      <div class="code">
+                429            </div>
+      <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+    </div>
+  </body>
+</html>
+2021-10-10 14:11:40 INFO  EmployeesRestAPI:78 - ********** Check Server Type **************
+2021-10-10 14:11:40 INFO  EmployeesRestAPI:80 - Server Type is =>cloudflare
+2021-10-10 14:11:40 INFO  EmployeesRestAPI:49 - ********** Check Status Code **************
+2021-10-10 14:11:40 INFO  EmployeesRestAPI:51 - Status Code is ==>429
+2021-10-10 14:11:55 INFO  EmployeesRestAPI:17 - ************* Started TC005_Delete_Employee_Record ***********
+2021-10-10 14:12:23 INFO  EmployeesRestAPI:17 - ************* Started TC005_Delete_Employee_Record ***********
+2021-10-10 14:13:29 INFO  EmployeesRestAPI:17 - ************* Started TC005_Delete_Employee_Record ***********
+2021-10-10 14:13:36 INFO  EmployeesRestAPI:59 - ********** check Status Line **************
+2021-10-10 14:13:36 INFO  EmployeesRestAPI:61 - Status Line is ==>HTTP/1.1 200 OK
+2021-10-10 14:13:36 INFO  EmployeesRestAPI:97 - ********** Check Content Encoding **************
+2021-10-10 14:13:36 INFO  EmployeesRestAPI:99 - Content Encoding is ==>gzip
+2021-10-10 14:13:36 INFO  EmployeesRestAPI:68 - ********** Check content Type **************
+2021-10-10 14:13:36 INFO  EmployeesRestAPI:70 - content Type is ==>application/json
+2021-10-10 14:13:36 INFO  EmployeesRestAPI:40 - ********** Check Response Body **************
+2021-10-10 14:13:36 INFO  EmployeesRestAPI:42 - Response Body is ==>{
+    "status": "success",
+    "data": "null",
+    "message": "Successfully! Record has been deleted"
+}
+2021-10-10 14:13:36 INFO  EmployeesRestAPI:78 - ********** Check Server Type **************
+2021-10-10 14:13:36 INFO  EmployeesRestAPI:80 - Server Type is =>cloudflare
+2021-10-10 14:13:36 INFO  EmployeesRestAPI:49 - ********** Check Status Code **************
+2021-10-10 14:13:36 INFO  EmployeesRestAPI:51 - Status Code is ==>200
+2021-10-10 14:13:52 INFO  EmployeesRestAPI:17 - ************* Started TC005_Delete_Employee_Record ***********
+2021-10-10 14:14:05 INFO  EmployeesRestAPI:59 - ********** check Status Line **************
+2021-10-10 14:14:05 INFO  EmployeesRestAPI:61 - Status Line is ==>HTTP/1.1 429 Too Many Requests
+2021-10-10 14:14:05 INFO  EmployeesRestAPI:97 - ********** Check Content Encoding **************
+2021-10-10 14:14:05 INFO  EmployeesRestAPI:99 - Content Encoding is ==>null
+2021-10-10 14:14:05 INFO  EmployeesRestAPI:68 - ********** Check content Type **************
+2021-10-10 14:14:05 INFO  EmployeesRestAPI:70 - content Type is ==>text/html; charset=UTF-8
+2021-10-10 14:14:05 INFO  EmployeesRestAPI:40 - ********** Check Response Body **************
+2021-10-10 14:14:05 INFO  EmployeesRestAPI:42 - Response Body is ==><html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Too Many Requests</title>
+    <link rel="dns-prefetch" href="//fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"/>
+    <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+  </head>
+  <body>
+    <div class="flex-center position-ref full-height">
+      <div class="code">
+                429            </div>
+      <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+    </div>
+  </body>
+</html>
+2021-10-10 14:14:05 INFO  EmployeesRestAPI:78 - ********** Check Server Type **************
+2021-10-10 14:14:05 INFO  EmployeesRestAPI:80 - Server Type is =>cloudflare
+2021-10-10 14:14:05 INFO  EmployeesRestAPI:49 - ********** Check Status Code **************
+2021-10-10 14:14:05 INFO  EmployeesRestAPI:51 - Status Code is ==>429
+2021-10-10 14:26:42 INFO  EmployeesRestAPI:21 - *********Started TC001_Get_All_Employees **********
+2021-10-10 14:26:46 INFO  EmployeesRestAPI:117 - ***********  Checking Content Lenght**********
+2021-10-10 14:26:46 INFO  EmployeesRestAPI:120 - Content Length is==>null
+2021-10-10 14:26:46 INFO  EmployeesRestAPI:84 - ***********  Checking Content Type **********
+2021-10-10 14:26:46 INFO  EmployeesRestAPI:87 - Content type is ==>text/html; charset=UTF-8
+2021-10-10 14:26:46 INFO  EmployeesRestAPI:55 - ***********  Checking Response Time **********
+2021-10-10 14:26:46 INFO  EmployeesRestAPI:58 - Response Time is ==>2306
+2021-10-10 14:26:46 WARN  EmployeesRestAPI:61 - Response Time is greater than 2000
+2021-10-10 14:26:46 INFO  EmployeesRestAPI:33 - ***********  Checking Respose Body **********
+2021-10-10 14:26:46 INFO  EmployeesRestAPI:36 - Response Body==><!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+2021-10-10 14:26:46 INFO  EmployeesRestAPI:44 - ***********  Checking Status Code **********
+2021-10-10 14:26:46 INFO  EmployeesRestAPI:47 - Status Code is ==>429
+2021-10-10 14:26:46 INFO  EmployeesRestAPI:105 - ***********  Checking Content Encoding**********
+2021-10-10 14:26:46 INFO  EmployeesRestAPI:108 - Content Encoding is==>null
+2021-10-10 14:26:46 INFO  EmployeesRestAPI:94 - ***********  Checking Server Type **********
+2021-10-10 14:26:46 INFO  EmployeesRestAPI:97 - Server Type is =>cloudflare
+2021-10-10 14:26:46 INFO  EmployeesRestAPI:71 - ***********  Checking Status Line **********
+2021-10-10 14:26:46 INFO  EmployeesRestAPI:74 - Status Line is ==>HTTP/1.1 429 Too Many Requests
+2021-10-10 14:26:46 INFO  EmployeesRestAPI:145 - *********  Finished TC001_Get_All_Employees **********
+2021-10-10 14:26:46 INFO  EmployeesRestAPI:19 - ********** Started TC002_Get_Single_Employee_Record **************
+2021-10-10 14:26:50 INFO  EmployeesRestAPI:95 - ********** Check Content length **************
+2021-10-10 14:26:50 INFO  EmployeesRestAPI:85 - ********** Check Content Type **************
+2021-10-10 14:26:50 INFO  EmployeesRestAPI:87 - Content Type is ==>application/json
+2021-10-10 14:26:50 INFO  EmployeesRestAPI:34 - ********** Check Response Body **************
+2021-10-10 14:26:50 INFO  EmployeesRestAPI:36 - Response Body==>{
+    "status": "success",
+    "data": {
+        "id": 1,
+        "employee_name": "Tiger Nixon",
+        "employee_salary": 320800,
+        "employee_age": 61,
+        "profile_image": ""
+    },
+    "message": "Successfully! Record has been fetched."
+}
+2021-10-10 14:26:50 INFO  EmployeesRestAPI:55 - ********** Check Response Time **************
+2021-10-10 14:26:50 INFO  EmployeesRestAPI:57 - Response Time is ==>1502
+2021-10-10 14:26:50 INFO  EmployeesRestAPI:75 - ********** Check Server Type **************
+2021-10-10 14:26:50 INFO  EmployeesRestAPI:77 - Server Type is =>cloudflare
+2021-10-10 14:26:50 INFO  EmployeesRestAPI:45 - ********** Check Status Code **************
+2021-10-10 14:26:50 INFO  EmployeesRestAPI:47 - Status Code ==>200
+2021-10-10 14:26:50 INFO  EmployeesRestAPI:64 - ********** Check Status Line **************
+2021-10-10 14:26:50 INFO  EmployeesRestAPI:66 - Status Line is ==>HTTP/1.1 200 OK
+2021-10-10 14:26:50 INFO  EmployeesRestAPI:104 - ********** Finished TC002_Get_Single_Employee_Record **************
+2021-10-10 14:26:50 INFO  EmployeesRestAPI:27 - ************* Started TC003_Post_Employee_Record ***********
+2021-10-10 14:26:57 INFO  EmployeesRestAPI:55 - ********** Check Response Body **************
+2021-10-10 14:26:57 INFO  EmployeesRestAPI:57 - Response Body is ==>{
+    "status": "success",
+    "data": {
+        "name": "John uo00",
+        "salary": "48425",
+        "age": "54",
+        "id": 5066
+    },
+    "message": "Successfully! Record has been added."
+}
+2021-10-10 14:26:57 INFO  EmployeesRestAPI:77 - ********** check Status Line **************
+2021-10-10 14:26:57 INFO  EmployeesRestAPI:79 - Status Line is ==>HTTP/1.1 200 OK
+2021-10-10 14:26:57 INFO  EmployeesRestAPI:115 - ********** Check Content Encoding **************
+2021-10-10 14:26:57 INFO  EmployeesRestAPI:117 - Content Encoding is ==>gzip
+2021-10-10 14:26:57 INFO  EmployeesRestAPI:86 - ********** Check content Type **************
+2021-10-10 14:26:57 INFO  EmployeesRestAPI:88 - content Type is ==>application/json
+2021-10-10 14:26:57 INFO  EmployeesRestAPI:96 - ********** Check Server Type **************
+2021-10-10 14:26:57 INFO  EmployeesRestAPI:98 - Server Type is =>cloudflare
+2021-10-10 14:26:57 INFO  EmployeesRestAPI:67 - ********** Check Status Code **************
+2021-10-10 14:26:57 INFO  EmployeesRestAPI:69 - Status Code is ==>200
+2021-10-10 14:26:57 INFO  EmployeesRestAPI:123 - ************* Finished TC003_Post_Employee_Record ***********
+2021-10-10 14:26:57 INFO  EmployeesRestAPI:24 - ************* Started TC004_Update_Employee_Record ***********
+2021-10-10 14:27:02 INFO  EmployeesRestAPI:72 - ********** check Status Line **************
+2021-10-10 14:27:02 INFO  EmployeesRestAPI:74 - Status Line is ==>HTTP/1.1 200 OK
+2021-10-10 14:27:02 INFO  EmployeesRestAPI:110 - ********** Check Content Encoding **************
+2021-10-10 14:27:02 INFO  EmployeesRestAPI:112 - Content Encoding is ==>gzip
+2021-10-10 14:27:02 INFO  EmployeesRestAPI:81 - ********** Check content Type **************
+2021-10-10 14:27:02 INFO  EmployeesRestAPI:83 - content Type is ==>application/json; charset=utf-8
+2021-10-10 14:27:02 INFO  EmployeesRestAPI:52 - ****** Check Response Body ******
+2021-10-10 14:27:02 INFO  EmployeesRestAPI:54 - Response Body is ==>{
+    "name": "John waSb",
+    "job": "hWray",
+    "updatedAt": "2021-10-10T08:56:57.790Z"
+}
+2021-10-10 14:27:02 INFO  EmployeesRestAPI:91 - ********** Check Server Type **************
+2021-10-10 14:27:02 INFO  EmployeesRestAPI:93 - Server Type is =>cloudflare
+2021-10-10 14:27:02 INFO  EmployeesRestAPI:62 - ********** Check Status Code **************
+2021-10-10 14:27:02 INFO  EmployeesRestAPI:64 - Status Code is ==>200
+2021-10-10 14:27:02 INFO  EmployeesRestAPI:118 - ************* Finished TC004_Update_Employee_Record ***********
+2021-10-10 14:27:02 INFO  EmployeesRestAPI:17 - ************* Started TC005_Delete_Employee_Record ***********
+2021-10-10 15:15:38 INFO  EmployeesRestAPI:21 - *********Started TC001_Get_All_Employees **********
+2021-10-10 15:15:46 INFO  EmployeesRestAPI:117 - ***********  Checking Content Lenght**********
+2021-10-10 15:15:46 INFO  EmployeesRestAPI:120 - Content Length is==>null
+2021-10-10 15:15:46 INFO  EmployeesRestAPI:84 - ***********  Checking Content Type **********
+2021-10-10 15:15:46 INFO  EmployeesRestAPI:87 - Content type is ==>text/html; charset=UTF-8
+2021-10-10 15:15:46 INFO  EmployeesRestAPI:55 - ***********  Checking Response Time **********
+2021-10-10 15:15:46 INFO  EmployeesRestAPI:58 - Response Time is ==>1584
+2021-10-10 15:15:46 INFO  EmployeesRestAPI:33 - ***********  Checking Respose Body **********
+2021-10-10 15:15:46 INFO  EmployeesRestAPI:36 - Response Body==><!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+2021-10-10 15:15:46 INFO  EmployeesRestAPI:44 - ***********  Checking Status Code **********
+2021-10-10 15:15:46 INFO  EmployeesRestAPI:47 - Status Code is ==>429
+2021-10-10 15:15:46 INFO  EmployeesRestAPI:105 - ***********  Checking Content Encoding**********
+2021-10-10 15:15:46 INFO  EmployeesRestAPI:108 - Content Encoding is==>null
+2021-10-10 15:15:46 INFO  EmployeesRestAPI:94 - ***********  Checking Server Type **********
+2021-10-10 15:15:46 INFO  EmployeesRestAPI:97 - Server Type is =>cloudflare
+2021-10-10 15:15:46 INFO  EmployeesRestAPI:71 - ***********  Checking Status Line **********
+2021-10-10 15:15:46 INFO  EmployeesRestAPI:74 - Status Line is ==>HTTP/1.1 429 Too Many Requests
+2021-10-10 15:15:46 INFO  EmployeesRestAPI:145 - *********  Finished TC001_Get_All_Employees **********
+2021-10-10 15:15:46 INFO  EmployeesRestAPI:19 - ********** Started TC002_Get_Single_Employee_Record **************
+2021-10-10 15:15:52 INFO  EmployeesRestAPI:95 - ********** Check Content length **************
+2021-10-10 15:15:52 INFO  EmployeesRestAPI:85 - ********** Check Content Type **************
+2021-10-10 15:15:52 INFO  EmployeesRestAPI:87 - Content Type is ==>application/json
+2021-10-10 15:15:52 INFO  EmployeesRestAPI:34 - ********** Check Response Body **************
+2021-10-10 15:15:53 INFO  EmployeesRestAPI:36 - Response Body==>{
+    "status": "success",
+    "data": {
+        "id": 1,
+        "employee_name": "Tiger Nixon",
+        "employee_salary": 320800,
+        "employee_age": 61,
+        "profile_image": ""
+    },
+    "message": "Successfully! Record has been fetched."
+}
+2021-10-10 15:15:53 INFO  EmployeesRestAPI:55 - ********** Check Response Time **************
+2021-10-10 15:15:53 INFO  EmployeesRestAPI:57 - Response Time is ==>1135
+2021-10-10 15:15:53 INFO  EmployeesRestAPI:75 - ********** Check Server Type **************
+2021-10-10 15:15:53 INFO  EmployeesRestAPI:77 - Server Type is =>cloudflare
+2021-10-10 15:15:53 INFO  EmployeesRestAPI:45 - ********** Check Status Code **************
+2021-10-10 15:15:53 INFO  EmployeesRestAPI:47 - Status Code ==>200
+2021-10-10 15:15:53 INFO  EmployeesRestAPI:64 - ********** Check Status Line **************
+2021-10-10 15:15:53 INFO  EmployeesRestAPI:66 - Status Line is ==>HTTP/1.1 200 OK
+2021-10-10 15:15:53 INFO  EmployeesRestAPI:104 - ********** Finished TC002_Get_Single_Employee_Record **************
+2021-10-10 15:15:53 INFO  EmployeesRestAPI:27 - ************* Started TC003_Post_Employee_Record ***********
+2021-10-10 15:15:59 INFO  EmployeesRestAPI:55 - ********** Check Response Body **************
+2021-10-10 15:15:59 INFO  EmployeesRestAPI:57 - Response Body is ==><html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Too Many Requests</title>
+    <link rel="dns-prefetch" href="//fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"/>
+    <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+  </head>
+  <body>
+    <div class="flex-center position-ref full-height">
+      <div class="code">
+                429            </div>
+      <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+    </div>
+  </body>
+</html>
+2021-10-10 15:15:59 INFO  EmployeesRestAPI:77 - ********** check Status Line **************
+2021-10-10 15:15:59 INFO  EmployeesRestAPI:79 - Status Line is ==>HTTP/1.1 429 Too Many Requests
+2021-10-10 15:15:59 INFO  EmployeesRestAPI:115 - ********** Check Content Encoding **************
+2021-10-10 15:15:59 INFO  EmployeesRestAPI:117 - Content Encoding is ==>null
+2021-10-10 15:15:59 INFO  EmployeesRestAPI:86 - ********** Check content Type **************
+2021-10-10 15:15:59 INFO  EmployeesRestAPI:88 - content Type is ==>text/html; charset=UTF-8
+2021-10-10 15:15:59 INFO  EmployeesRestAPI:96 - ********** Check Server Type **************
+2021-10-10 15:15:59 INFO  EmployeesRestAPI:98 - Server Type is =>cloudflare
+2021-10-10 15:15:59 INFO  EmployeesRestAPI:67 - ********** Check Status Code **************
+2021-10-10 15:15:59 INFO  EmployeesRestAPI:69 - Status Code is ==>429
+2021-10-10 15:15:59 INFO  EmployeesRestAPI:123 - ************* Finished TC003_Post_Employee_Record ***********
+2021-10-10 15:15:59 INFO  EmployeesRestAPI:24 - ************* Started TC004_Update_Employee_Record ***********
+2021-10-10 15:16:05 INFO  EmployeesRestAPI:72 - ********** check Status Line **************
+2021-10-10 15:16:05 INFO  EmployeesRestAPI:74 - Status Line is ==>HTTP/1.1 200 OK
+2021-10-10 15:16:05 INFO  EmployeesRestAPI:110 - ********** Check Content Encoding **************
+2021-10-10 15:16:05 INFO  EmployeesRestAPI:112 - Content Encoding is ==>gzip
+2021-10-10 15:16:05 INFO  EmployeesRestAPI:81 - ********** Check content Type **************
+2021-10-10 15:16:05 INFO  EmployeesRestAPI:83 - content Type is ==>application/json; charset=utf-8
+2021-10-10 15:16:05 INFO  EmployeesRestAPI:52 - ****** Check Response Body ******
+2021-10-10 15:16:05 INFO  EmployeesRestAPI:54 - Response Body is ==>{
+    "name": "John iPQS",
+    "job": "xSLhM",
+    "updatedAt": "2021-10-10T09:46:00.018Z"
+}
+2021-10-10 15:16:05 INFO  EmployeesRestAPI:91 - ********** Check Server Type **************
+2021-10-10 15:16:05 INFO  EmployeesRestAPI:93 - Server Type is =>cloudflare
+2021-10-10 15:16:05 INFO  EmployeesRestAPI:62 - ********** Check Status Code **************
+2021-10-10 15:16:05 INFO  EmployeesRestAPI:64 - Status Code is ==>200
+2021-10-10 15:16:05 INFO  EmployeesRestAPI:118 - ************* Finished TC004_Update_Employee_Record ***********
+2021-10-10 15:16:05 INFO  EmployeesRestAPI:17 - ************* Started TC005_Delete_Employee_Record ***********

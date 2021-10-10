@@ -24,7 +24,7 @@ public class TC001_Get_All_Employees extends TestBase {
 	httpRequest = RestAssured.given();
 	response = httpRequest.request(Method.GET,"/employees");
 	
-	Thread.sleep(5);
+	Thread.sleep(5000);
 	}
 			
 	@Test

@@ -23,7 +23,7 @@ public class TC002_Get_Single_Employee_Record extends TestBase {
 	    //response 
 	    response = httpRequest.request(Method.GET, "/employee/"+empID);
 	    
-	    Thread.sleep(3000);
+	    Thread.sleep(5000);
 	    
 	    
 	}

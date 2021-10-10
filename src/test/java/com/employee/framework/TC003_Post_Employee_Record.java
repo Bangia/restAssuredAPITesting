@@ -62,6 +62,7 @@ public class TC003_Post_Employee_Record extends TestBase {
 	}
 	
 	//Check Status Code
+	@Test
 	void checkStatusCode() {
 		logger.info("********** Check Status Code **************");
 		int statusCode = response.getStatusCode();
@@ -71,6 +72,7 @@ public class TC003_Post_Employee_Record extends TestBase {
 	}
 	
 	//check Status Line
+	@Test
 	void CheckstatusLine() {
 		logger.info("********** check Status Line **************");
 		String statusLine = response.getStatusLine();
@@ -79,6 +81,7 @@ public class TC003_Post_Employee_Record extends TestBase {
 	}
 	
 	//Check content Type
+	@Test
 	void checkContentType() {
 		logger.info("********** Check content Type **************");
 		String contentType = response.header("Content-Type");

@@ -27,6 +27,12 @@ public class RestUtils {
 		return(generateAge);
 	}
 	
+	//Dynamic Job of employee code..
+	
+	public static String empJob() {
+		String generateJob = RandomStringUtils.randomAlphabetic(5);
+		return (generateJob);
+	}
 	
 
 }
