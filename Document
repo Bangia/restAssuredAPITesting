@@ -1,0 +1,181 @@
+API TESTING USING REST ASSURED
+
+Its an API designed for automating REST services/REST APIS'S
+
+
+1. Creating maven project in Eclipse
+2. We need to update pom.xml with required dependencies.
+
+	- Rest Assured
+	- TestNg
+	- JSON-simple
+	- Apache poi
+	
+3. API Test cases need to write.
+
+URL : https://www.toolsqa.com/rest-assured/rest-api-test-using-rest-assured/
+
+Google API DETAILS :
+
+API KEY : 
+
+f671895cc9134089add75219210809
+
+URL : https://www.weatherapi.com/api-explorer.aspx
+
+Free API for testing : https://reqres.in/
+
+===================================================
+SCOPE IN API TESTING :
+===================================================
+
+1. Headers for POST request
+2. Body for POST request
+3. Response body
+4. Authentication PIS
+
+===================================================
+STEPS IN API TESTING :
+===================================================
+
+1. Create base URI
+2. request object
+3. response object
+4. response body
+
+===================================================
+VALIDATIONS IN API TESTING :
+===================================================
+
+-->Status Code
+-->Status Line
+-->headers response (Content-type, etc)
+-->response time
+
+===================================================
+DATA DRIVEN IN API TESTING :
+===================================================
+
+Git Link :
+https://github.com/pavanoltraining/inetbankingV1
+
+Pre-requisite :
+
+1. need to prepare test data in excel.
+2. download apache poi in pom.xml if used maven based else attach jars to your project build path
+3. xl utility (Java class file) file which read data from excel
+4. write testNg test with dataprovider method
+
+BASE URL : http://dummy.restapiexample.com/api/v1/create
+
+Body :
+
+{"name":"Neil","salary":"90000","age":"23"}
+
+GIT :
+
+1. Local repository (Git)
+2. Remote respository (Github)
+
+add
+commit
+push
+
+
+Pre-requisites :
+------------------
+URL OF REMOTE REPO : https://github.com/Bangia/restAssuredAPITesting.git
+SSH : git@github.com:Bangia/restAssuredAPITesting.git
+
+PATH OF PROJECT : /Users/hashstudioz/eclipse-workspace/restAssuredAPITesting
+
+1. install git in your local systems
+2. create an account in github
+3. 
+
+
+GIT Commands:
+
+TOKEN : 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
+------------------
+==================
+1st  Round of git
+===================
+/Users/hashstudioz/git/repository/restAssuredAPITesting
+/Users/hashstudioz/git/repository/restAssuredAPITesting
+
+git init --> Create an empty git repository (Local repository)
+git remote add origin "https://github.com/Bangia/restAssuredAPITesting.git"
+
+git status --> What are the file ready to commit in git repository
+git add -A --> Add all your files to staging area
+
+git config --global user.name "Bangia"
+git config --global user.email "nitinbangia8@gmail.com"
+
+git commit -m "sECOND Commit"
+git push -u origin master (For final commit in remote repo)
+
+HOW TO PULL COMMAND IS MENTION BELOW 
+
+git pull origin master (Pull the files from github --> git local machine)
+
+==================
+2nd Round of git
+
+git status --> What are the file ready to commit in git repository
+git add -A --> Add all your files to staging area
+git commit -m "sECOND Commit"
+git push -u origin master (For final commit in remote repo)
+
+==============================================================
+PART 2: REST ASSURED AUTOMATION FRAMEWORK :
+==============================================================
+
+Objectives of designing framework :
+
+1. Re-usuability
+2. Maintainability
+
+---------------------------
+Analyse
+---------------------------
+Pre-defined framework : TestNg, Cucumber, Robot, Junit etc.
+
+customized framework/User defined framework: we are using this approach
+	- Data Driven framework, Hybrid framework etc..
+
+Hybrid Approach ---->
+	- RestAssured
+	- TestNg
+	- Maven
+	- Jenkins (CI)
+	- GitHub or Git
+
+PHASE 1 : Implementaion/development of automation framework :
+
+Step 1 : Create Maven Project
+Step 2 : Update pom.xml
+Step 3 : Create folder structure
+
+Project name
+   |
+   base (packages)
+   |
+   testCases (packages)
+   |
+   Utilities (packages)
+   
+   |
+   logs (folder)
+   |
+   reports folder (folder)
+   |
+   pom.xml
+   |
+   testNg.xml
+
+
+
+
+==========================================================================================================
