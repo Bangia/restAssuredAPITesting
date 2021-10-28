@@ -1,43 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [restAssuredTestSuite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="com.employeeapi.utilities.Listeners"/>
-  </listeners>
-  <test thread-count="5" name="restAssuredTest(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.employee.framework.TC001_Get_All_Employees">
-        <methods>
-          <include name="checkContentLenght"/>
-          <include name="checkStatusCode"/>
-          <include name="setup"/>
-          <include name="getAllEmployees"/>
-          <include name="tearDown"/>
-          <include name="checkcontentEncoding"/>
-          <include name="checkstatusLine"/>
-          <include name="checkContentType"/>
-        </methods>
-      </class> <!-- com.employee.framework.TC001_Get_All_Employees -->
-      <class name="com.employee.framework.TC005_Delete_Employee_Record">
-        <methods>
-          <include name="deleteEmployeeRecord"/>
-          <include name="CheckstatusLine"/>
-          <include name="checkContentEncoding"/>
-          <include name="checkContentType"/>
-          <include name="setup"/>
-          <include name="checkStatusCode"/>
-          <include name="checkServerType"/>
-          <include name="checkResponseBody"/>
-        </methods>
-      </class> <!-- com.employee.framework.TC005_Delete_Employee_Record -->
-      <class name="com.employee.framework.TC002_Get_Single_Employee_Record">
-        <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="get_Single_Employee_By_empId"/>
-          <include name="checkResponseTime"/>
-        </methods>
-      </class> <!-- com.employee.framework.TC002_Get_Single_Employee_Record -->
       <class name="com.employee.framework.TC003_Post_Employee_Record">
         <methods>
           <include name="tearDown"/>
@@ -51,5 +16,5 @@
         </methods>
       </class> <!-- com.employee.framework.TC003_Post_Employee_Record -->
     </classes>
-  </test> <!-- restAssuredTest(failed) -->
-</suite> <!-- Failed suite [restAssuredTestSuite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -3,17 +3,18 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.employee.framework.TC005_Delete_Employee_Record">
+      <class name="com.employee.framework.TC003_Post_Employee_Record">
         <methods>
-          <include name="deleteEmployeeRecord"/>
-          <include name="CheckstatusLine"/>
+          <include name="tearDown"/>
+          <include name="CheckresponseBody"/>
           <include name="checkContentEncoding"/>
           <include name="checkContentType"/>
           <include name="setup"/>
+          <include name="CheckstatusLine"/>
           <include name="checkStatusCode"/>
-          <include name="checkResponseBody"/>
+          <include name="createNewEmployeeRecord"/>
         </methods>
-      </class> <!-- com.employee.framework.TC005_Delete_Employee_Record -->
+      </class> <!-- com.employee.framework.TC003_Post_Employee_Record -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

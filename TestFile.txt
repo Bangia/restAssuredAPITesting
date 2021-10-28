@@ -1,2 +1,24 @@
-THIS IS NEW FILE
-THIS IS TEST FILE CREATED IN GIT HUB LOGIN
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="restAssuredTestSuite">
+<listeners>
+<listener class-name="com.employeeapi.utilities.Listeners" />
+</listeners>
+<test thread-count="5" name="restAssuredTest">
+
+ <classes>
+ 
+  <class name="com.employee.framework.TC001_Get_All_Employees" />
+  <class name="com.employee.framework.TC002_Get_Single_Employee_Record" />
+  <class name="com.employee.framework.TC003_Post_Employee_Record" />
+  <class name="com.employee.framework.TC004_Put_Employee_Record" />
+  <class name="com.employee.framework.TC005_Delete_Employee_Record" />
+ 
+ </classes>
+
+
+</test>
+
+
+</suite>
