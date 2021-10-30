@@ -3,18 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.employee.framework.TC003_Post_Employee_Record">
+      <class name="com.testNg.concepts.Tutorial_5_Dependency_Test">
         <methods>
-          <include name="tearDown"/>
-          <include name="CheckresponseBody"/>
-          <include name="checkContentEncoding"/>
-          <include name="checkContentType"/>
-          <include name="setup"/>
-          <include name="CheckstatusLine"/>
-          <include name="checkStatusCode"/>
-          <include name="createNewEmployeeRecord"/>
+          <include name="driverCar"/>
+          <include name="stopCar"/>
+          <include name="startCar"/>
         </methods>
-      </class> <!-- com.employee.framework.TC003_Post_Employee_Record -->
+      </class> <!-- com.testNg.concepts.Tutorial_5_Dependency_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
+//the below is rest api xml
 <suite name="restAssuredTestSuite">
 <listeners>
 <listener class-name="com.employeeapi.utilities.Listeners" />
@@ -22,3 +23,26 @@
 
 
 </suite>
+
+//the below is testNG tutorial sample
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test cases TestNg Tutorials">
+
+	<test verbose="2" name="TestcasesTestNg">
+
+		<classes>
+
+			<class name="com.testNg.concepts.IntroductionTestNg" />
+			<class name="com.testNg.concepts.Tutorial_2_TestNgxml" />
+
+
+
+		</classes>
+	</test>
+
+
+</suite>
+

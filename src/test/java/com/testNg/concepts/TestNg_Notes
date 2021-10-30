@@ -6,3 +6,94 @@ Advantages of TestNg:
 4. Parallel execution
 5. reporting
 
+====================================================================
+Tutorial 3: TestNg annotations
+====================================================================
+
+Types of annotations in TestNg:
+
+1. @BeforeSuite
+2. @AfterSuite
+3. @BeforeTest
+4. @AfterTest
+5. @BeforeClass
+6. @AfterClass
+7. @BeforeMethod
+8. @AfterMethod
+9. @Test
+
+====================================================================
+Tutorial 4 : How to Prioritizing Test & Disabling Steps:
+====================================================================
+1. Prioritizing Test 
+
+sytnax : @Test(priority=1)
+
+2. Disabling Steps:
+
+Sometime our test case not complete so we can disable them in our test steps.
+
+sytnax : @Test(priority=1, enabled=false)
+
+=============
+Sample Code :
+=============
+
+@Test (priority=3, enabled=false)
+ 	void TestCase_Four() {
+			
+			System.out.println("This is Test Case_4");
+		}
+		
+		
+====================================================================		
+Tutorial 5 : Dependency Tests in TestNg:
+====================================================================
+Dependency Tests in TestNg
+
+=============
+Sample code:
+=============
+
+@Test
+	void startCar() {
+		System.out.println("CAR STARTED !!!");
+		
+	}
+	
+	@Test(dependsOnMethods= {"startCar"})
+	void driverCar() {
+		System.out.println("CAR DRIVING !!!");
+		
+	}
+	
+	@Test(dependsOnMethods= {"driverCar"})
+	void stopCar() {
+		System.out.println("CAR STOP !!!");
+		
+	}
+	
+	@Test(dependsOnMethods= {"driverCar", "stopCar"})
+	void parkCar() {
+		System.out.println("CAR PARKED !!!");
+		
+	}
+
+AlwaysRun property
+
+=============
+Sample Code :
+=============
+
+@Test(dependsOnMethods= {"driverCar", "stopCar"},alwaysRun=true)
+	void parkCar() {
+		System.out.println("CAR PARKED !!!");
+		
+	}
+
+====================================================================		
+Tutorial 6 : Grouping Test
+====================================================================
+
+Purpose : like we have testing phases sanity, smoke , regression.
+By using testNg we can group our test cases.

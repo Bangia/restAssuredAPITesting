@@ -3,16 +3,25 @@
 
 <suite name="All Test cases TestNg Tutorials">
 
-	<test verbose="2" name="TestcasesTestNg">
-
+	<test name="Annotations Tutorials">
 		<classes>
 
-			<class name="com.testNg.concepts.IntroductionTestNg" />
-			<class name="com.testNg.concepts.Tutorial_2_TestNgxml" />
+			<class name="com.testNg.concepts.Tutorial_3_TestNg_Annotations">
+				<methods>
+					<include name="test1" />
+					<include name="test2" />
+				</methods>
+			</class>
 
-
+			<class name="com.testNg.concepts.TC_2_TestNg_Annotations">
+				<methods>
+					<include name="test3" />
+					<include name="test4" />
+				</methods>
+			</class>
 
 		</classes>
+
 	</test>
 
 
