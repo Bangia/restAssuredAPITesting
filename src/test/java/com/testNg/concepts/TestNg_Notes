@@ -97,3 +97,239 @@ Tutorial 6 : Grouping Test
 
 Purpose : like we have testing phases sanity, smoke , regression.
 By using testNg we can group our test cases.
+
+================================
+Sytanx:
+================================
+
+	@Test (groups= {"sanity"})
+	void test4() {
+		System.out.println("This is test4");
+		
+	}
+	
+	@Test (groups= {"sanity", "regression"})
+	void test5() {
+		System.out.println("This is test5");
+		
+	}
+================================
+sample testNg xml :
+================================
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test cases TestNg Tutorials">
+
+	<test name="Annotations Tutorials">
+		
+		
+		
+		<groups>
+		<run>
+		<exclude name="sanity"/>
+		<include name="regression"/>
+		</run>
+		
+		</groups>
+		
+		<classes>
+
+			<class name="com.testNg.concepts.Tutorial_6_Grouping_Testcases" />
+
+		</classes>
+
+	</test>
+
+
+</suite>
+
+====================================================================		
+Tutorial 7 : TestNg Assertions
+====================================================================
+Assertions in TestNg:
+
+Assert.assertTrue()
+Assert.assertFalse()
+Assert.assertEquals()
+
+
+Sample Code :
+
+@BeforeClass
+	void setup() {
+		System.setProperty("webdriver.chrome.driver", "/Users/hashstudioz/Downloads/chromedriver");
+		driver = new ChromeDriver();
+		driver.get("https://opensource-demo.orangehrmlive.com/");
+		
+		
+	}
+	
+	@Test(priority=2)
+	void logoTest() {
+		WebElement logo = driver.findElement(By.xpath("//*[@id=\"divLogo\"]/img"));
+		Assert.assertTrue(logo.isDisplayed(),"Logo not displayed on the Page");
+		
+	}
+	
+	@Test(priority=1)
+	void homePageTitle() {
+		String webTitle = driver.getTitle();
+		System.out.println(webTitle);
+		
+		Assert.assertEquals("OrangeHRM123", webTitle,"Title Not displayed");
+	}
+	
+	
+	@AfterClass
+	void teardown() {
+		driver.quit();
+	}
+
+
+====================================================================		
+Tutorial 8 : TestNg Parameterization
+====================================================================
+Sample:
+
+@BeforeClass
+	@Parameters({"browser","url"})
+	void setup(String browser, String app) {
+		
+		if(browser.equalsIgnoreCase("chrome")) {
+			System.setProperty("webdriver.chrome.driver", "/Users/hashstudioz/Downloads/chromedriver");
+			driver = new ChromeDriver();
+			
+		}
+		
+		else if(browser.equalsIgnoreCase("firefox")) {
+			System.setProperty("webdriver.gecko.driver", "/Users/hashstudioz/Downloads/chromedriver");
+			driver = new FirefoxDriver();
+			
+		}
+		else {
+			System.setProperty("webdriver.chrome.driver", "/Users/hashstudioz/Downloads/chromedriver");
+			driver = new ChromeDriver();
+		}
+		
+		driver.get(app);
+		
+		
+	}
+	
+	@Test(priority=2)
+	void logoTest() {
+		WebElement logo = driver.findElement(By.xpath("//*[@id=\"divLogo\"]/img"));
+		Assert.assertTrue(logo.isDisplayed(),"Logo not displayed on the Page");
+		
+	}
+	
+	@Test(priority=1)
+	void homePageTitle() {
+		String webTitle = driver.getTitle();
+		System.out.println(webTitle);
+		
+		Assert.assertEquals("OrangeHRM", webTitle,"Title Not displayed");
+	}
+	
+	
+	@AfterClass
+	void teardown() {
+		driver.quit();
+	}
+
+
+
+Sample : 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test cases TestNg Tutorials">
+
+
+	<parameter name="browser" value="chrome" />
+	<parameter name="url" value="https://opensource-demo.orangehrmlive.com/" />
+	<test name="Parameterization1">
+		
+		<classes>
+		
+		<class name="com.testNg.concepts.Tutorial_8_TestNg_Parameterization" />
+		</classes>
+		
+		
+	</test>
+
+
+<parameter name="browser" value="firefox" />
+	<parameter name="url" value="https://opensource-demo.orangehrmlive.com/" />
+	<test name="Parameterization2">
+		
+		<classes>
+		
+		<class name="com.testNg.concepts.Tutorial_8_TestNg_Parameterization" />
+		</classes>
+		
+		
+	</test>
+</suite>
+
+====================================================================		
+Tutorial 9 : DataProvider annotation
+====================================================================
+
+DataProvider in TestNg
+
+--> DataProvider used for Data Driven testing
+--> Annoted methods return an array of Object ie Object[][]
+--> Annotation tag of DataProvider is @DataProvider
+
+=================
+Sample Code:
+=================
+@Test(dataProvider="LoginDataProvider")
+	public void loginTest(String email, String pwd) {
+		System.out.println(email+ "  " +pwd);
+		
+	}
+	
+	@Test(dataProvider="AddEmployee",dataProviderClass=Custom_DataProvider.class)
+	public void addEmployee(String name, String department) {
+		System.out.println(name+"  "+department);
+	}
+	
+	
+	
+	@DataProvider(name="LoginDataProvider")
+	public Object[][] getData(){
+		Object[][] data = {
+				
+				{"abc8@gmail.com", "abc8"},
+				{"abc9@gmail.com", "abc9"},
+				{"abc10@gmail.com", "abc10"}
+				
+		};
+		return data;
+	}
+	
+====================================================================		
+Tutorial 10 : Parallel Testing in TestNg
+====================================================================
+Advantages of parallel tests execution
+Run test methods in parallel
+Run test classes in parallel
+Run test suite in parallel
+
+
+====================================================================		
+Tutorial 11 : TestNg Listeners
+====================================================================
+What are Listeners?
+Types of Listeners
+How to use Listeners
+
+
+
+
+

@@ -1,28 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="All Test cases TestNg Tutorials">
+<!-- parallel="tests" its for suite -->
+<!-- parallel="methods" its for methods -->
+<!-- parallel="classes" its for classes -->
+<suite name="All Test cases TestNg Tutorials" parallel="tests" thread-count="2">
 
-	<test name="Annotations Tutorials">
+	<test name="test1">
+
 		<classes>
 
-			<class name="com.testNg.concepts.Tutorial_3_TestNg_Annotations">
-				<methods>
-					<include name="test1" />
-					<include name="test2" />
-				</methods>
-			</class>
+			<class name="parallelTest.Parallel_Test_1"/>
+			
 
-			<class name="com.testNg.concepts.TC_2_TestNg_Annotations">
-				<methods>
-					<include name="test3" />
-					<include name="test4" />
-				</methods>
-			</class>
+			
 
 		</classes>
 
 	</test>
+	
+	
+	<test name="test2">
 
+		<classes>
+
+			
+			<class name="parallelTest.Parallel_Test_2"/>	
+
+			
+
+		</classes>
+
+	</test>
 
 </suite>

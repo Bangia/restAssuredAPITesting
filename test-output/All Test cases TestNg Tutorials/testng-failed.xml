@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test cases TestNg Tutorials]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="url" value="https://opensource-demo.orangehrmlive.com/"/>
+  <test thread-count="5" name="Parameterization1(failed)">
+    <classes>
+      <class name="com.testNg.concepts.Tutorial_8_TestNg_Parameterization">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="homePageTitle"/>
+          <include name="logoTest"/>
+        </methods>
+      </class> <!-- com.testNg.concepts.Tutorial_8_TestNg_Parameterization -->
+    </classes>
+  </test> <!-- Parameterization1(failed) -->
+  <test thread-count="5" name="Parameterization2(failed)">
+    <classes>
+      <class name="com.testNg.concepts.Tutorial_8_TestNg_Parameterization">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="homePageTitle"/>
+          <include name="logoTest"/>
+        </methods>
+      </class> <!-- com.testNg.concepts.Tutorial_8_TestNg_Parameterization -->
+    </classes>
+  </test> <!-- Parameterization2(failed) -->
+</suite> <!-- Failed suite [All Test cases TestNg Tutorials] -->

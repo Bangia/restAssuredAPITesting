@@ -46,3 +46,101 @@
 
 </suite>
 
+//below is example of tutorial 5
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test cases TestNg Tutorials">
+
+	<test name="Annotations Tutorials">
+		<classes>
+
+			<class name="com.testNg.concepts.Tutorial_3_TestNg_Annotations">
+				<methods>
+					<include name="test1" />
+					<include name="test2" />
+				</methods>
+			</class>
+
+			<class name="com.testNg.concepts.TC_2_TestNg_Annotations">
+				<methods>
+					<include name="test3" />
+					<include name="test4" />
+				</methods>
+			</class>
+
+		</classes>
+
+	</test>
+
+
+</suite>
+
+
+
+//Below is Tutorial 6 code testNg xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test cases TestNg Tutorials">
+
+	<test name="Annotations Tutorials">
+		
+		
+		
+		<groups>
+		<run>
+		<exclude name="sanity"/>
+		<include name="regression"/>
+		</run>
+		
+		</groups>
+		
+		<classes>
+
+			<class name="com.testNg.concepts.Tutorial_6_Grouping_Testcases" />
+
+		</classes>
+
+	</test>
+
+
+</suite>
+
+
+
+//Tutorial 8 parameterization testNg xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test cases TestNg Tutorials">
+
+
+	<parameter name="browser" value="chrome" />
+	<parameter name="url" value="https://opensource-demo.orangehrmlive.com/" />
+	<test name="Parameterization1">
+		
+		<classes>
+		
+		<class name="com.testNg.concepts.Tutorial_8_TestNg_Parameterization" />
+		</classes>
+		
+		
+	</test>
+
+
+<parameter name="browser" value="firefox" />
+	<parameter name="url" value="https://opensource-demo.orangehrmlive.com/" />
+	<test name="Parameterization2">
+		
+		<classes>
+		
+		<class name="com.testNg.concepts.Tutorial_8_TestNg_Parameterization" />
+		</classes>
+		
+		
+	</test>
+</suite>
